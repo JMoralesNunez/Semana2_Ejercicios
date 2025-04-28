@@ -1,6 +1,6 @@
 nota = float(input("enter your grade (0-10): "))
 
-if nota >= 7:
+if nota >= 7 and nota <= 10:
     print("Sobresaliente")
 elif nota < 7 and nota >= 5:
     print("Aprobado")
